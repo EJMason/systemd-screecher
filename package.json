@@ -12,7 +12,9 @@
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "rebuild": "node-gyp rebuild",
-    "publish": "np"
+    "pub:maj": "npm publish",
+    "pub:min": "npm publish",
+    "pub:patch": "npm publish"
   },
   "author": "EJ Mason <ej-mason@pluralsight.com>",
   "license": "ISC",
@@ -24,7 +26,6 @@
     "nan": "2.14.0"
   },
   "devDependencies": {
-    "node-gyp": "6.0.1",
-    "np": "5.1.3"
+    "node-gyp": "6.0.1"
   }
 }
