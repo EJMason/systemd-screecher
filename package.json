@@ -14,7 +14,9 @@
     "rebuild": "node-gyp rebuild",
     "pub:maj": "npm version major -m ':bookmark: Major Release' && npm publish",
     "pub:min": "npm version minor -m ':bookmark: Minor Release' && npm publish",
-    "pub:patch": "npm version patch -m ':bookmark: Patch Release' && npm publish"
+    "pub:patch": "npm version patch -m ':bookmark: Patch Release' && npm publish",
+    "np:min": "np minor",
+    "np:patch": "np patch"
   },
   "os": [
     "linux",
@@ -30,6 +32,7 @@
     "nan": "2.14.0"
   },
   "devDependencies": {
-    "node-gyp": "6.0.1"
+    "node-gyp": "6.0.1",
+    "np": "5.1.3"
   }
 }
