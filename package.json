@@ -1,0 +1,30 @@
+{
+  "name": "systemd-screecher",
+  "version": "1.0.0",
+  "description": "Systemd Notify",
+  "main": "index.js",
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EJMason/systemd-screecher.git"
+  },
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild",
+    "publish": "np"
+  },
+  "author": "EJ Mason <ej-mason@pluralsight.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EJMason/systemd-screecher/issues"
+  },
+  "homepage": "https://github.com/EJMason/systemd-screecher#readme",
+  "dependencies": {
+    "nan": "2.14.0"
+  },
+  "devDependencies": {
+    "node-gyp": "6.0.1",
+    "np": "5.1.3"
+  }
+}
