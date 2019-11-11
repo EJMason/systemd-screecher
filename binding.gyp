@@ -14,6 +14,7 @@
             'libraries/': [['exclude', '-lsystemd$']],
           }
         ],
+      ],
     }
   ]
 }
