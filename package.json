@@ -12,9 +12,9 @@
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "rebuild": "node-gyp rebuild",
-    "pub:maj": "npm publish",
-    "pub:min": "npm publish",
-    "pub:patch": "npm publish"
+    "pub:maj": "npm version major -m ':bookmark: Major Release' && npm publish",
+    "pub:min": "npm version minor -m ':bookmark: Minor Release' && npm publish",
+    "pub:patch": "npm version patch -m ':bookmark: Patch Release' && npm publish"
   },
   "author": "EJ Mason <ej-mason@pluralsight.com>",
   "license": "ISC",
