@@ -16,6 +16,10 @@
     "pub:min": "npm version minor -m ':bookmark: Minor Release' && npm publish",
     "pub:patch": "npm version patch -m ':bookmark: Patch Release' && npm publish"
   },
+  "os": [
+    "linux",
+    "darwin"
+  ],
   "author": "EJ Mason <ej-mason@pluralsight.com>",
   "license": "ISC",
   "bugs": {
