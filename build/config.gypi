@@ -113,7 +113,7 @@
     "always_auth": "",
     "prefer_online": "",
     "dirPacker": "",
-    "npm_session": "4961ddaab4e4cc60",
+    "npm_session": "74014a3e2cdcc826",
     "cache_lock_retries": "10",
     "global_style": "",
     "update_notifier": "true",
